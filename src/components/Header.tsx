@@ -4,7 +4,7 @@ const Header = () => {
     }
 
     return (
-        <nav className="fixed z-50 border-b justify-center py-3 shadow-sm bg-zinc-900 bg-background/60 backdrop-blur-md flex w-full select-none font-light md:px-28">
+        <nav className="fixed z-50 border-b border-black justify-center py-3 shadow-sm bg-zinc-900 bg-background/60 backdrop-blur-md flex w-full select-none font-light md:px-28">
             <div className="container flex flex-col items-center justify-between md:flex-row text-white">
                 <div className="text-2xl drop-shadow-2xl hover:scale-105 headerStyle transition-all pt-1 ">
                     <a>Rupesh Virani</a>

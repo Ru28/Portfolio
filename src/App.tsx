@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { Fragment } from 'react/jsx-runtime'
 import Header from './components/Header'
 import Home from './components/Home'
 
@@ -12,10 +11,10 @@ function App() {
   ])
 
   return (
-    <Fragment>
+    <div className='bg-gray-950'>
       <Header/>
       <RouterProvider router={appRouter} />
-    </Fragment>
+    </div>
   )
 }
 

@@ -10,3 +10,8 @@
 .headerStyle{
   font-family: myFirstFont;
 }
+
+body{
+  background-color: #030712;
+  color: white;
+}
