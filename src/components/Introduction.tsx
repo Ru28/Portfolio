@@ -9,7 +9,7 @@ const Introduction = () => {
         </h1>
         <div className="overflow-hidden rounded-full p-3 md:p-4">
             <div className="relative flex items-center justify-center">
-                <img src={dp} alt="Dp" loading="lazy" width="420" height="420" decoding="async"/>
+                <img src={dp} alt="Dp" loading="lazy" width="300" height="300" decoding="async"/>
             </div>
         </div>
         <h1 className='text-center text-2xl font-semibold'>
