@@ -2,14 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
+
+
+@font-face{
+  font-family: 'goldensign';
+  src: url('./assets/GoldenSignature.otf');
 }
 
-.headerStyle{
-  font-family: myFirstFont;
-}
 
 body{
   background-color: #030712;

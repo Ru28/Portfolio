@@ -1,7 +1,7 @@
 import dp from '../assets/dp.png';
 const Introduction = () => {
   return (
-    <section className="my-8 flex flex-col items-center justify-center top-24">
+    <section id='#introduction' className="my-8 flex flex-col items-center justify-center top-24">
         <h1 className="mb-4 text-center text-lg md:text-[2rem]">
             <div className="relative flex items-center justify-center">
                 <span className="font-semibold"> Hi, I'm Rupesh Virani! 👋 </span>
